@@ -1,0 +1,45 @@
+{
+  "name": "upstage-lib",
+  "description": "The entire Upstage library.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/upstage/lib",
+  "author": {
+    "name": "Upstage",
+    "url": "http://upstage.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/upstage/lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/upstage/lib/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/upstage/lib/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "upstage-less": "*",
+    "upstage-mixins": "*",
+    "upstage-utilities": "*",
+    "upstage-components": "*"
+  },
+  "devDependencies": {
+    "assemble": "*",
+    "assemble-styles": "*",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "assemble": "*"
+  },
+  "keywords": [
+    "upstage",
+    "upstage library",
+    "upstage lib"
+  ]
+}
